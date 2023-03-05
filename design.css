@@ -1,0 +1,376 @@
+body{
+    background-color: black; 
+} 
+.header-style{
+    height: 15vh ;
+    border-radius:  30px;
+    display: flex;
+    flex-direction: row; 
+}
+#main-body{ 
+    /* border: 3px solid green; */
+    height: 90vh;
+    display:flex;
+    flex-direction: row;
+}
+#main-part{
+    width: 70%;
+    height: 100%;
+}
+#in-between{
+    width: 1%;
+    height: 100%;
+}
+#menu-part{
+    width: 29%;
+    height: 100%;
+    /* border: 3px solid yellow; */
+}
+#align{
+    width: 26px;
+    height: 2.2 vh;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    cursor:pointer;
+}
+#tube{
+    width: 100px;
+    height: 3vh;
+    padding-top: 40px;
+    padding-left: 5px;
+    cursor:default; 
+}
+ 
+#container{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    padding-left: 130px;
+    border: 3px solid rgba(255, 255, 255, 0);
+    width: 40%;
+    padding-top: 2.5%;
+    height: 75vh;
+}
+.search-arena{
+    width: 100%;
+    max-width: 550px;
+    background: rgba(255, 255, 255, 0.192);
+    display: flex;
+    align-items: center;
+    border-radius: 90px;
+    height: 20px;
+    padding: 5px;
+}
+.search-arena input{
+    background:transparent;
+    border: 0px;
+    padding:0px 16px;
+    flex: 2;
+    outline: none;
+    font-size: 17px;
+    color:rgba(255, 255, 255, 0.753);
+}
+::placeholder{
+    color:#cac7ff;
+}
+.search-arena button img{
+    width: 17px;
+}
+.search-arena button{
+    background: rgba(190, 61, 61, 0);
+    border-width: 0px;
+    width: 60px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 0%;
+    padding-left: 10px;
+}
+#mic{
+    height: 3.2vh;
+    padding-top: 40px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#plus{
+    padding-left: 130px;
+    height: 6.9vh;
+    padding-top: 19px;
+    cursor: pointer;
+}
+#plus img{
+    padding-left: 100px;
+    width: 70px;
+    padding-right: 1px;
+}
+.notify{
+    height: 5.5vh;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    padding-top: 35px;
+    border-radius: 0%;
+    border-top: 0%; 
+}
+.finals{
+    width: 100%;
+    height: 600px;
+} 
+.text{
+    padding-bottom: 10px;
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    width: 900px;
+}
+#comment{
+    font-size: 15px;
+    color: gray;
+    padding-bottom:0px;
+    height: 2vh;
+    width: 100%;
+}
+.bar{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    padding-bottom: 5%;
+}
+.trophy{
+    height: 10%;
+    width: 8%;
+    padding-left: 5px;
+    border-radius: 50%;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+#hub{
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+    height: 50%;
+}
+#subs{
+    font-size: 12px;
+    color: grey;
+}
+.cribe{
+   height: 100%;
+   width: 180px;
+   padding-bottom: 5%;
+   cursor: pointer;
+}
+.share{
+    height: 130%;
+    width: 400px;
+    margin-bottom: 5%;
+    cursor: pointer;
+    padding-left: 10px;
+} 
+#about{
+    color: white;
+    height: 15vh;
+    width: 400px;
+    border-bottom:0px;
+} 
+.train{
+    height: 20%;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+#pic{
+    height: 60px;
+    width: 98%;
+    /* border: 3px white solid; */
+}
+.side{
+    display: flex;
+    flex-direction: row;
+}
+.code{
+    height: 8%;
+    width: 16%;
+    padding-left: 5px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.other{
+    color: white;
+    padding-right: 20px;
+    font-size: 15px; 
+    padding-top: 10px;
+}
+.ad{
+    font-size: 12px;
+    color: grey;
+}
+.click{
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    padding-left: 50px;
+}
+.features{
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    /* border:  2.5px solid greenyellow; */
+}
+#all{
+    color: grey;
+    padding-left: 10px;
+    background: white;
+    border-radius: 20%;
+    height: 18px;
+    text-align:center;
+    width: 40px;
+    padding-top: 10px;cursor: pointer;
+}
+#relate{
+    color: white;
+    margin-left: 30px;
+    border-radius: 20%;
+    height: 25px;
+    width: 60px;
+    background: rgb(56, 55, 55);
+    padding-top: 1px;
+    justify-content: center;
+    cursor: pointer;
+    padding-left: 15px;
+}
+#pro{
+    color: white;
+    margin-left: 20px;
+    border-radius: 20%;
+    height: 25px;
+    width: 90px;
+    background: rgb(56, 55, 55);
+    justify-content: center;
+    cursor: pointer;
+    padding-left: 15px;
+}
+#songs{
+    color: white;
+    margin-left: 20px;
+    border-radius: 20%;
+    height: 25px;
+    width: 45px;
+    background: rgb(56, 55, 55);
+    cursor: pointer;
+}
+#half{
+    /* border:  2.5px solid blue; */
+    height: 80%;
+    display:  flex;
+    width: 98%;
+    flex-direction: row;
+    padding-top: 10px;
+}
+#half img{
+    height: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+}
+#demy{
+    padding-left: 12px;
+    color: white;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+#detail{
+    color: white;
+    padding-bottom: 70px;
+    font-size: 13px;
+}
+#site{
+    font-size: 10px;
+    padding-top: 0px;  
+    color: gray; 
+}
+#site button{
+    background-color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#section{
+    /* border:  2.5px solid red; */
+    height: 40%;
+    display:  flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.welcome{
+    height: 200%;
+    width: 200px;
+}
+.celeb{
+    padding-left: 8px;
+    color: white;
+    font-size: 17px;
+}
+.light{
+    color: gray;
+    font-size: 11px;
+}
+.box{
+    color: gray;
+    font-size: 11px;
+}
+#part{
+    /* border:  2.5px solid white; */
+    height: 90%;
+    padding-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+}
+.og{
+    height: 100%;
+    width: 195px;
+    padding-bottom: 300px;
+}
+.tech{
+    padding-left: 10px;
+    color: white;
+    font-size: 17px;
+} 
+.num{
+    font-size: 12px;
+    color: grey;
+}
+.string{
+    font-size: 12px;
+    color: wheat;
+}
+#last-part{
+    /* border: 3px solid blue; */
+    height: 90%;
+    width: 352px;
+    display: flex;
+    flex-direction: row;
+}
+.down{
+    height: 100%;
+    width: 195px;
+    margin-left: 0px;
+}
+.come{
+    color: white;
+    padding-left: 10px;
+}
+.sing{
+    color: grey;
+    font-size: 10px;
+}
+.area{
+    color: wheat;
+    font-size: 12px;
+}
